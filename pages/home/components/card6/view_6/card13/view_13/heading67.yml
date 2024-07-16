@@ -1,0 +1,52 @@
+id: '17194134378560.36631664815538434'
+definitionId: heading
+styles:
+  xl:
+    fontSize:
+      customValue: 14
+      customUnit: px
+      themeDefaultOverridePropertyKey: baseTextFontSize
+    gridItem:
+      x: 12
+      y: 30
+      w: 12
+      h: 10
+    flex:
+      size:
+        widthValue: auto
+        heightValue: 36
+        heightUnit: px
+      grow: '0'
+      shrink: '0'
+    color:
+      value: hint
+      dataValue: ffff
+      withData: false
+  xs:
+    gridItem:
+      x: 0
+      y: 95
+      w: 24
+      h: 10
+    flex:
+      size:
+        widthValue: auto
+        heightValue: 36
+        heightUnit: px
+      grow: '0'
+      shrink: '0'
+properties:
+  name: heading67
+  text: Cost per dick
+  verticalAlignment: middle
+  __UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__:
+    - xl
+    - xs
+  decoration: null
+  textStyle:
+    transform: none
+  alignment: right
+parentSlotId: '17194134378560.13402060001133442'
+index: 0
+actions: {}
+slots: []

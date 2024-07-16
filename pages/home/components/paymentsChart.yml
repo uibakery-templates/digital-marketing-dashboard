@@ -1,0 +1,76 @@
+id: '16208381589230.5705651516740515'
+definitionId: chart
+parentSlotId: '2'
+styles:
+  xl:
+    gridItem:
+      x: 8
+      y: 338
+      w: 16
+      h: 62
+properties:
+  lineSmooth: true
+  name: paymentsChart
+  data:
+    value:
+      - title: Payments
+        data: '{{actions.payments.data}}'
+        color: primary
+        xProp: paymentDate
+        yProp: amount
+        groupType: month
+        groupFunctionType: sum
+    dataValue: |-
+      [
+        {
+          title: 'Item 1',
+          data: [
+            { value: 10, name: 'Germany' },
+            { value: 40, name: 'France' },
+            { value: 10, name: 'Canada' },
+            { value: 65, name: 'Russia' },
+            { value: 5, name: 'USA' }
+          ],
+          color: 'primary',
+          xProp: 'name',
+          yProp: 'value'
+        },
+        {
+          title: 'Item 2',
+          data: [
+            { value: 5, name: 'Germany' },
+            { value: 25, name: 'France' },
+            { value: 95, name: 'Canada' },
+            { value: 20, name: 'Russia' },
+            { value: 90, name: 'USA' }
+          ],
+          color: 'info',
+          xProp: 'name',
+          yProp: 'value'
+        }
+      ]
+    withData: false
+  title: Weekly sales
+  type: lineChart
+  showLoading:
+    withData: true
+    dataValue: '{{actions.payments.loading}}'
+    value: false
+  dataset: '{{actions.payments.data}}'
+  structure:
+    - title: Income
+      color: primary
+      xProp: paymentDate
+      yProp: amount
+      groupType: day
+      groupFunctionType: sum
+      __UIBAKERY__SYSTEM_ID__: '16255749563400.79144976691174'
+      ignoreTimezone: false
+  __UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__:
+    - xl
+    - xs
+  barsWidth: 30
+  barsRounderdCorners: true
+actions: {}
+index: 3
+slots: []

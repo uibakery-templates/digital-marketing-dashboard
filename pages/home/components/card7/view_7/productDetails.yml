@@ -1,0 +1,99 @@
+id: '16208368458740.5123908199647769'
+definitionId: detail
+parentSlotId: '17193264047810.42427968323646414'
+styles:
+  xl:
+    gridItem:
+      id: '16208368458740.5123908199647769'
+      x: 18
+      y: 0
+      w: 6
+      h: 125
+    flex:
+      size:
+        widthValue: auto
+        heightValue: 320
+        heightUnit: px
+      grow: 0
+      shrink: 0
+  xs:
+    gridItem:
+      id: '16208368458740.5123908199647769'
+      x: 18
+      y: 125
+      w: 6
+      h: 125
+    flex:
+      size:
+        widthValue: auto
+        heightValue: 320
+        heightUnit: px
+      grow: 0
+      shrink: 0
+properties:
+  entity: '{{ui.productsTable.selectedRow.data}}'
+  name: productDetails
+  columns: '1'
+  title: ''
+  showLoading:
+    withData: false
+    value: false
+    dataValue: ''
+  __UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__:
+    - xl
+    - xs
+  containerStyles:
+    withData: false
+    dataValue: |-
+      {
+        padding: 'default',
+        shadow: 'default',
+        border: 'default'
+      }
+    value:
+      padding: default
+      shadow: default
+      border: none
+actions: {}
+index: 2
+slots:
+  - id: '16208368458740.9910977889735844'
+    name: structure
+    children:
+      - id: '16208368844910.9037745806533768'
+        definitionId: atomicString
+        parentSlotId: '16208368458740.9910977889735844'
+        styles: {}
+        properties:
+          name: atomicString3
+          prop: productName
+          title: Product name
+          placeholder: Product name
+          length:
+            value: {}
+            withData: false
+            dataValue: '[0, 10]'
+          markdownSupport: true
+          __UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__:
+            - xl
+            - xs
+        index: 0
+        slots: []
+      - id: '16208368844910.41782098298405645'
+        definitionId: atomicText
+        parentSlotId: '16208368458740.9910977889735844'
+        styles: {}
+        properties:
+          name: atomicText
+          prop: productDescription
+          title: Product description
+          placeholder: Product description
+          length:
+            value: {}
+            withData: false
+            dataValue: '[0, 10]'
+          __UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__:
+            - xl
+            - xs
+        index: 1
+        slots: []

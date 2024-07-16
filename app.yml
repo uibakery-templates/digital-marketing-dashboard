@@ -1,0 +1,19 @@
+metadata:
+  favicon: ''
+  code: |-
+    <style>
+    body {
+      background-color: white !important;
+    }
+    </style>
+  title: retail
+  description: ''
+  breakpoints: []
+  rendererCachingEnabled: true
+appSettings:
+  properties:
+    defaultData: '{}'
+  actions: {}
+  gridVersion: 2
+  density: compact
+internalType: project

@@ -1,0 +1,67 @@
+id: '16208362577780.2449448343060232'
+name: products
+nameConfigured: true
+steps:
+  - id: '16346328357020.7574136253681103'
+    type: LOAD_COLLECTION
+    params:
+      - type: datasourceId
+        value: PjRm90nI4k 2
+        valueType: string
+      - type: resourceId
+        value: b6629ecc-e676-4665-8f8b-c6481739b1a7
+        valueType: string
+      - type: filters
+        value:
+          - column: productLine
+            operation: '='
+            value:
+              value: '{{ui.linesSelect.value}}'
+          - column: productName
+            operation: like
+            value:
+              value: '{{ui.searchInput.value}}'
+        valueType: custom
+      - type: ordering
+        value:
+          limit:
+            value: ''
+          offset:
+            value: ''
+          orderBy:
+            value: ''
+          orderDirection:
+            value: asc
+        valueType: custom
+      - type: additionalParams
+        value:
+          - name: ''
+            value: ''
+        valueType: custom
+      - type: successMapper
+        value: ./16346328357020.7574136253681103-successMapper.js
+        valueType: interpolatedValue
+      - type: failureMapper
+        value: ''
+        valueType: interpolatedValue
+      - type: mapperEnabled
+        value: true
+        valueType: custom
+    level: 0
+    fallthroughError: false
+    isChanged: true
+config:
+  shouldConfirm: false
+  confirmMessage: Are you sure you'd like to proceed with "{{actions.products.name}}"?
+  showSuccessToast: false
+  successToast: Action "{{actions.products.name}}" successfully executed
+  showErrorToast: false
+  errorToast: Action "{{actions.products.name}}" has failed
+  delay: '0'
+  runWhenFirstReferenced: true
+mode: manual
+assigned: true
+selected: true
+singleStep: true
+configured: true
+kind: workflow

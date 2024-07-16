@@ -1,0 +1,52 @@
+id: '17193978781570.5571280706799844'
+definitionId: heading
+styles:
+  xl:
+    fontSize:
+      customValue: 14
+      customUnit: px
+      themeDefaultOverridePropertyKey: baseTextFontSize
+    gridItem:
+      x: 0
+      y: 0
+      w: 11
+      h: 10
+    flex:
+      size:
+        widthValue: auto
+        heightValue: 36
+        heightUnit: px
+      grow: '0'
+      shrink: '0'
+    color:
+      value: basic
+      dataValue: ffff
+      withData: false
+  xs:
+    gridItem:
+      x: 0
+      y: 0
+      w: 24
+      h: 10
+    flex:
+      size:
+        widthValue: auto
+        heightValue: 36
+        heightUnit: px
+      grow: '0'
+      shrink: '0'
+properties:
+  name: heading59
+  text: No value
+  verticalAlignment: middle
+  __UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__:
+    - xl
+    - xs
+  decoration: null
+  textStyle:
+    transform: none
+  alignment: left
+parentSlotId: '17193978781570.7343951337963102'
+index: -5
+actions: {}
+slots: []

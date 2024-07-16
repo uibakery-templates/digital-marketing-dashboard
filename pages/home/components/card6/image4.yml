@@ -1,0 +1,51 @@
+id: '17194130449320.610224190841117'
+definitionId: image
+styles:
+  xl:
+    gridItem:
+      x: 0
+      y: 0
+      w: 2
+      h: 9
+    flex:
+      size:
+        widthValue: 100
+        widthUnit: px
+        heightValue: 120
+        heightUnit: px
+      grow: '0'
+      shrink: '0'
+    src:
+      url: ''
+      uploadUrl: >-
+        https://sauibakeryprod.blob.core.windows.net/assets-container/assets/b2dpzfldz3/images/gOI7TmkZll
+      name: Frame 6755.svg
+      active: upload
+  xs:
+    gridItem:
+      id: '17194129204200.10005450804840743'
+      x: 0
+      y: 0
+      w: 1
+      h: 9
+    flex:
+      size:
+        widthValue: 100
+        widthUnit: px
+        heightValue: 120
+        heightUnit: px
+      grow: '0'
+      shrink: '0'
+properties:
+  name: image4
+  __UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__:
+    - xl
+    - xs
+  linkInfo:
+    active: internalPath
+    internalPath: ''
+    externalPath: ''
+parentSlotId: '17194130449320.9601611330251814'
+index: 0
+actions: {}
+slots: []

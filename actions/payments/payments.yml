@@ -1,0 +1,59 @@
+id: '16208380256650.14329277951953245'
+name: payments
+nameConfigured: true
+steps:
+  - id: '16346328357020.34221182886734236'
+    type: LOAD_COLLECTION
+    params:
+      - type: datasourceId
+        value: PjRm90nI4k 2
+        valueType: string
+      - type: resourceId
+        value: 4d96dd55-f716-4d94-b008-baf3e22ac4fa
+        valueType: string
+      - type: filters
+        value: []
+        valueType: custom
+      - type: ordering
+        value:
+          limit:
+            value: ''
+          offset:
+            value: ''
+          orderBy:
+            value: ''
+          orderDirection:
+            value: asc
+        valueType: custom
+      - type: additionalParams
+        value:
+          - name: ''
+            value: ''
+        valueType: custom
+      - type: successMapper
+        value: ''
+        valueType: interpolatedValue
+      - type: failureMapper
+        value: ''
+        valueType: interpolatedValue
+      - type: mapperEnabled
+        value: false
+        valueType: custom
+    level: 0
+    fallthroughError: false
+    isChanged: true
+config:
+  shouldConfirm: false
+  confirmMessage: Are you sure you'd like to proceed with "{{actions.payments.name}}"?
+  showSuccessToast: false
+  successToast: Action "{{actions.payments.name}}" successfully executed
+  showErrorToast: false
+  errorToast: Action "{{actions.payments.name}}" has failed
+  delay: '0'
+  runWhenFirstReferenced: true
+assigned: false
+selected: false
+singleStep: true
+configured: true
+mode: manual
+kind: workflow

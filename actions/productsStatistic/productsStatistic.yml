@@ -1,0 +1,61 @@
+id: '16208389935100.932840767058851'
+name: productsStatistic
+nameConfigured: true
+steps:
+  - id: '16346328357020.5423108492788657'
+    type: LOAD_COLLECTION
+    params:
+      - type: datasourceId
+        value: PjRm90nI4k 2
+        valueType: string
+      - type: resourceId
+        value: b6629ecc-e676-4665-8f8b-c6481739b1a7
+        valueType: string
+      - type: filters
+        value: []
+        valueType: custom
+      - type: ordering
+        value:
+          limit:
+            value: ''
+          offset:
+            value: ''
+          orderBy:
+            value: ''
+          orderDirection:
+            value: asc
+        valueType: custom
+      - type: additionalParams
+        value:
+          - name: ''
+            value: ''
+        valueType: custom
+      - type: successMapper
+        value: ''
+        valueType: interpolatedValue
+      - type: failureMapper
+        value: ''
+        valueType: interpolatedValue
+      - type: mapperEnabled
+        value: false
+        valueType: custom
+    level: 0
+    fallthroughError: false
+    isChanged: true
+assigned: false
+selected: true
+config:
+  shouldConfirm: false
+  confirmMessage: >-
+    Are you sure you'd like to proceed with
+    "{{actions.productsStatistic.name}}"?
+  showSuccessToast: false
+  successToast: Action "{{actions.productsStatistic.name}}" successfully executed
+  showErrorToast: false
+  errorToast: Action "{{actions.productsStatistic.name}}" has failed
+  delay: '0'
+  runWhenFirstReferenced: true
+singleStep: true
+configured: true
+mode: manual
+kind: workflow

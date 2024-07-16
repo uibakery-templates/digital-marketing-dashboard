@@ -1,0 +1,59 @@
+id: '16208361365570.764798038787015'
+name: dropdownValues
+nameConfigured: true
+steps:
+  - id: '16346328357020.9966107085730469'
+    type: LOAD_COLLECTION
+    params:
+      - type: datasourceId
+        value: PjRm90nI4k 2
+        valueType: string
+      - type: resourceId
+        value: 930ac72f-4926-4771-8685-8612b2e765df
+        valueType: string
+      - type: filters
+        value: []
+        valueType: custom
+      - type: ordering
+        value:
+          limit:
+            value: ''
+          offset:
+            value: ''
+          orderBy:
+            value: ''
+          orderDirection:
+            value: asc
+        valueType: custom
+      - type: additionalParams
+        value:
+          - name: ''
+            value: ''
+        valueType: custom
+      - type: successMapper
+        value: ./16346328357020.9966107085730469-successMapper.js
+        valueType: interpolatedValue
+      - type: failureMapper
+        value: ''
+        valueType: interpolatedValue
+      - type: mapperEnabled
+        value: true
+        valueType: custom
+    level: 0
+    fallthroughError: false
+    isChanged: true
+config:
+  shouldConfirm: false
+  confirmMessage: Are you sure you'd like to proceed with "{{actions.dropdownValues.name}}"?
+  showSuccessToast: false
+  successToast: Action "{{actions.dropdownValues.name}}" successfully executed
+  showErrorToast: false
+  errorToast: Action "{{actions.dropdownValues.name}}" has failed
+  delay: '0'
+  runWhenFirstReferenced: true
+mode: manual
+assigned: false
+selected: true
+singleStep: true
+configured: true
+kind: workflow

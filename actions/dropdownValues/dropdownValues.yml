@@ -2,12 +2,9 @@ id: '16208361365570.764798038787015'
 name: dropdownValues
 nameConfigured: true
 steps:
-  - id: '16346328357020.9966107085730469'
+  - id: '17211303160640.15232745059242903'
     type: LOAD_COLLECTION
     params:
-      - type: datasourceId
-        value: PjRm90nI4k 2
-        valueType: string
       - type: resourceId
         value: 930ac72f-4926-4771-8685-8612b2e765df
         valueType: string
@@ -31,7 +28,7 @@ steps:
             value: ''
         valueType: custom
       - type: successMapper
-        value: ./16346328357020.9966107085730469-successMapper.js
+        value: ./load-successMapper.js
         valueType: interpolatedValue
       - type: failureMapper
         value: ''
@@ -39,9 +36,13 @@ steps:
       - type: mapperEnabled
         value: true
         valueType: custom
+      - type: datasourceId
+        value: PjRm90nI4k
+        valueType: custom
     level: 0
     fallthroughError: false
     isChanged: true
+    name: load
 config:
   shouldConfirm: false
   confirmMessage: Are you sure you'd like to proceed with "{{actions.dropdownValues.name}}"?

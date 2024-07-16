@@ -2,12 +2,9 @@ id: '16208362577780.2449448343060232'
 name: products
 nameConfigured: true
 steps:
-  - id: '16346328357020.7574136253681103'
+  - id: '17211303246110.8028210449924513'
     type: LOAD_COLLECTION
     params:
-      - type: datasourceId
-        value: PjRm90nI4k 2
-        valueType: string
       - type: resourceId
         value: b6629ecc-e676-4665-8f8b-c6481739b1a7
         valueType: string
@@ -39,7 +36,7 @@ steps:
             value: ''
         valueType: custom
       - type: successMapper
-        value: ./16346328357020.7574136253681103-successMapper.js
+        value: ./load-successMapper.js
         valueType: interpolatedValue
       - type: failureMapper
         value: ''
@@ -47,9 +44,13 @@ steps:
       - type: mapperEnabled
         value: true
         valueType: custom
+      - type: datasourceId
+        value: PjRm90nI4k
+        valueType: custom
     level: 0
     fallthroughError: false
     isChanged: true
+    name: load
 config:
   shouldConfirm: false
   confirmMessage: Are you sure you'd like to proceed with "{{actions.products.name}}"?

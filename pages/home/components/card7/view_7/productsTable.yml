@@ -32,7 +32,10 @@ styles:
       shrink: 0
 properties:
   name: productsTable
-  data: '{{actions.products.data}}'
+  data:
+    value: ''
+    dataValue: '{{actions.products.data}}'
+    withData: true
   title: ''
   limit: '10'
   showLoading:
@@ -97,6 +100,12 @@ slots:
           __UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__:
             - xl
             - xs
+          labelConfig:
+            align: left
+            position: vertical
+          inlineEditSubmitTriggers:
+            - enter
+          viewTooltipMode: custom
         index: 0
         slots: []
       - id: '16208362762030.05798874213812355'
@@ -114,6 +123,12 @@ slots:
           __UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__:
             - xl
             - xs
+          labelConfig:
+            align: left
+            position: vertical
+          inlineEditSubmitTriggers:
+            - enter
+          viewTooltipMode: custom
         index: 3
         slots: []
       - id: '16208362762030.7948938689040528'
@@ -131,6 +146,12 @@ slots:
           __UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__:
             - xl
             - xs
+          labelConfig:
+            align: left
+            position: vertical
+          inlineEditSubmitTriggers:
+            - enter
+          viewTooltipMode: custom
         index: 5
         slots: []
       - id: '16208362762030.8649600459827069'
@@ -152,6 +173,12 @@ slots:
             value: range
             dataValue: range
             withData: false
+          labelConfig:
+            align: left
+            position: vertical
+          inlineEditSubmitTriggers:
+            - enter
+          viewTooltipMode: custom
         index: 6
         slots: []
       - id: '16208362762030.33725726176059045'
@@ -173,6 +200,12 @@ slots:
             value: range
             dataValue: range
             withData: false
+          labelConfig:
+            align: left
+            position: vertical
+          inlineEditSubmitTriggers:
+            - enter
+          viewTooltipMode: custom
         index: 8
         slots: []
       - id: '16208362762030.8319694628095786'
@@ -194,6 +227,12 @@ slots:
           __UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__:
             - xl
             - xs
+          labelConfig:
+            align: left
+            position: vertical
+          inlineEditSubmitTriggers:
+            - enter
+          viewTooltipMode: custom
         index: 4
         slots: []
       - id: '16208362762030.4185685913373376'
@@ -229,6 +268,12 @@ slots:
             value: false
             dataValue: 'false'
             withData: false
+          labelConfig:
+            align: left
+            position: vertical
+          inlineEditSubmitTriggers:
+            - change
+          viewTooltipMode: custom
         index: 2
         actions: {}
         slots: []
@@ -253,6 +298,12 @@ slots:
             value: range
             dataValue: range
             withData: false
+          labelConfig:
+            align: left
+            position: vertical
+          inlineEditSubmitTriggers:
+            - enter
+          viewTooltipMode: custom
         index: 7
         slots: []
       - id: '16208362762030.7128451435809413'
@@ -274,5 +325,11 @@ slots:
           filter: true
           width: '250'
           lines: '1'
+          labelConfig:
+            align: left
+            position: vertical
+          inlineEditSubmitTriggers:
+            - blur
+          viewTooltipMode: custom
         index: 1
         slots: []

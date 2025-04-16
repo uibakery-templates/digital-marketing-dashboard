@@ -56,7 +56,10 @@ properties:
     withData: true
     dataValue: '{{actions.payments.loading}}'
     value: false
-  dataset: '{{actions.payments.data}}'
+  dataset:
+    value: ''
+    dataValue: '{{actions.payments.data}}'
+    withData: true
   structure:
     - title: Income
       color: primary

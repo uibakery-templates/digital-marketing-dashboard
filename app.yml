@@ -1,15 +1,10 @@
 metadata:
   favicon: ''
-  code: |-
-    <style>
-    body {
-      background-color: white !important;
-    }
-    </style>
   title: retail
   description: ''
   breakpoints: []
   rendererCachingEnabled: true
+  skipDepsComparisonInCompilerCache: false
 appSettings:
   properties:
     defaultData: '{}'

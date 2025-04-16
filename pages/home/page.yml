@@ -18,7 +18,10 @@ slots:
             - xl
             - xs
           cssClasses:
-            - ''
+            withData: false
+            dataValue: '[]'
+            value:
+              - ''
         actions: {}
         slots:
           - id: '2'

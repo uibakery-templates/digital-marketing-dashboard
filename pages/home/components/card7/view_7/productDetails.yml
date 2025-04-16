@@ -77,6 +77,11 @@ slots:
           __UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__:
             - xl
             - xs
+          labelConfig:
+            align: left
+            position: vertical
+          inlineEditSubmitTriggers:
+            - enter
         index: 0
         slots: []
       - id: '16208368844910.41782098298405645'
@@ -95,5 +100,10 @@ slots:
           __UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__:
             - xl
             - xs
+          labelConfig:
+            align: left
+            position: vertical
+          inlineEditSubmitTriggers:
+            - blur
         index: 1
         slots: []
